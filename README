@@ -1,0 +1,9 @@
+1) The C code generates the directory force_chain_data and files within.  Can be compiled with:
+
+gcc calc_force_chains.c -lm -O3 -o run_force_chains -w
+
+2) You need an smtest file to create the force_chain_data, but a sample data file is include
+
+3) You need the output of movie_post_processor, found in the directory velocity_data, or more recently written directly by the simulation
+
+4) run the python code - you'll need matplotlib, numpy
